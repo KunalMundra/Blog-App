@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    /* background-color: yellow; */
+
+}
+
+.logo{
+    flex: 1;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    /* background-color: red; */
+
+}
+.links{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    font-size: 14px;
+    /* background-color: rebeccapurple; */
+
+}
