@@ -47,3 +47,28 @@
     border-radius: 5px;
     width: max-content;
 }
+
+@media screen and (max-width: 934px) {
+    .title{
+        font-size: 45px;
+    }
+    .imgContainer {
+        height: 300px;
+      }
+}
+
+
+@media screen and (max-width: 720px) {
+    .title{
+        font-size: 35px;
+    }
+    .imgContainer {
+        display: none;
+      }
+}
+
+@media screen and (max-width: 558px) {
+    .title{
+        font-size: 30px;
+    }
+}

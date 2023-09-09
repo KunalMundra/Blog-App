@@ -13,7 +13,7 @@ const Featured = () => {
           <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
         </div>
         <div className={styles.textContainer}>
-          <h1 className={styles.PostTitle}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+          <h2 className={styles.PostTitle}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
           <p className={styles.PostDesc}>
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             when an unknown printer took a galley of type and scrambled it to make a type
