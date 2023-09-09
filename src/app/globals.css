@@ -62,7 +62,7 @@ a {
 
 @media screen and (max-width: 934px) {
     .wrapper {
-        max-width: 700px;
+        max-width: 850px;
     }
 }
 
@@ -80,8 +80,8 @@ a {
     }
 }
 
-@media screen and (max-width: 460px) {
+/* @media screen and (max-width: 460px) {
     .wrapper {
         max-width: 345px;
     }
-}
+} */
