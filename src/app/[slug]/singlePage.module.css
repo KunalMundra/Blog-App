@@ -54,6 +54,7 @@
 
 .img {
   object-fit: cover;
+  
 }
 
 .content {
@@ -103,4 +104,5 @@
   .description p{
     font-size: 14px;
   }
+
 }
