@@ -5,12 +5,14 @@ import styles from "./homepage.module.css";
 import Menu from "@/components/menu/Menu";
 
 export default function Home() {
-  return (<div>
-    <Featured />
-    <CategoryList />
-    <div className={styles.content}>
-      <CardList />
-      <Menu />
+  return (
+    <div>
+      <Featured />
+      <CategoryList />
+      <div className={styles.content}>
+        <CardList />
+        <Menu />
+      </div>
     </div>
-  </div>);
+  );
 }
