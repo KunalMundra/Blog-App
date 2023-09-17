@@ -4,13 +4,14 @@ import CardList from "@/components/cardList/CardList";
 import styles from "./homepage.module.css";
 import Menu from "@/components/menu/Menu";
 
-export default function Home() {
+export default function Home({ searchParams }) {
+  const page = parseInt(searchParams.page) || 1;
   return (
     <div>
       <Featured />
       <CategoryList />
       <div className={styles.content}>
-        <CardList />
+        <CardList page={page} />
         <Menu />
       </div>
     </div>

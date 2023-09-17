@@ -6,15 +6,15 @@ import { useRouter } from 'next/navigation';
 
 
 const LoginPage = () => {
-  const {status} = useSession();
+  const { status } = useSession();
 
   const router = useRouter();
 
-  if(status === "loading"){
+  if (status === "loading") {
     return <div className={styles.loading}>Loading...</div>
   }
-  
-  if(status === "authenticated"){
+
+  if (status === "authenticated") {
     router.push("/")
   }
 

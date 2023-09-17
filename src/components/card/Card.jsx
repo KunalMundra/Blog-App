@@ -3,9 +3,9 @@ import styles from './card.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Card = () => {
+const Card = ({key, item}) => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} key={key}>
             <div className={styles.imgContainer}>
                 <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
             </div>
@@ -15,7 +15,7 @@ const Card = () => {
                     <span className={styles.category}>CULTURE</span>
                 </div>
                 <Link href="/">
-                    <h2>Lorem Ipsum is simply typesetting industry.</h2>
+                    <h2>{item.title}</h2>
                 </Link>
                 <p className={styles.desc}>
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
