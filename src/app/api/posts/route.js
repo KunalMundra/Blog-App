@@ -5,12 +5,17 @@ export const GET = async (req) => {
   const { searchParams } = new URL(req.url)
 
   const page = searchParams.get("page");
+  const cat = searchParams.get("cat");
+
 
   const Post_per_page = 2;
 
   const query = {
     take: Post_per_page,
     skip: (Post_per_page * (page - 1)),
+    where: {
+      ...(cat && {catSlug : cat}),
+    },
   }
 
   try {
