@@ -23,10 +23,10 @@
   gap: 20px;
 }
 
-.userImgContainer {
+.userImageContainer {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 .avatar {
@@ -42,17 +42,21 @@
 }
 
 .username {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 500;
 }
 
-.imgContainer {
+.date{
+  font-size: 14px;
+}
+
+.imageContainer {
   flex: 1;
   height: 300px;
   position: relative;
 }
 
-.img {
+.image {
   object-fit: fill;
   
 }
@@ -62,17 +66,17 @@
   gap: 50px;
 }
 
-
 .post {
   flex: 4;
   margin-top: 60px;
 }
 
-.desc p {
+.description p {
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 20px;
 }
+
 
 @media screen and (max-width: 1250px) {
   .title {
@@ -93,16 +97,16 @@
 }
 
 @media screen and (max-width: 720px) {
-  .imgContainer {
+  .imageContainer {
     display: none;
   }
 
   .title {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .description p{
-    font-size: 14px;
+    font-size: 16px;
   }
 
 }

@@ -8,19 +8,18 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.info}>
         <div className={styles.logo}>
-          <Image src="/logo.png" alt="Kunal's Blog" width={50} height={50} />
-          <h1 className={styles.logoText}>Kunal's Blog</h1>
+          <Image src="/logo.png" alt="Kunal's Blog" width={40} height={40} />
+          <h1 className={styles.logoText}>𝚁𝚘𝚊𝚖 & 𝙲𝚘𝚍𝚎</h1>
         </div>
         <p className={styles.desc}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
-          necessitatibus similique aspernatur obcaecati veritatis. Aperiam cum
-          porro sequi, totam minima consequuntur, aspernatur deleniti vero
-          repellendus dorales.
+          Roam and Code unites exploration and coding, embracing
+          the endless possibilities in technology. We embark on a
+          journey through the evolving tech world, discovering the
+          tales told by every line of code.
         </p>
         <div className={styles.icons}>
           <Image src="/facebook.png" alt="" width={18} height={18} />
           <Image src="/instagram.png" alt="" width={18} height={18} />
-          <Image src="/tiktok.png" alt="" width={18} height={18} />
           <Image src="/youtube.png" alt="" width={18} height={18} />
         </div>
       </div>
