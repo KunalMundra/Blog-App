@@ -71,9 +71,11 @@
         font-size: 35px;
     }
 
-
+    .post{
+        display: block;
+    }
     .imgContainer {
-        display: none;
+        margin-bottom: 10px;
     }
 }
 

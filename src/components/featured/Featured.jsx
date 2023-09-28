@@ -23,7 +23,7 @@ const Featured = () => {
             fishing villages, pristine coastlines, and crystal-clear waters, these underrated gems
             have been largely untouched by modern development and offer a calmer way to experience La Bella Italia.
           </p>
-          <Link href="http://localhost:3000/posts/island">
+          <Link href={`/posts/island`}>
             <button className={styles.button}>Read More</button>
           </Link>
         </div>

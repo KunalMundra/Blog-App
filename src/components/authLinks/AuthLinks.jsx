@@ -25,16 +25,17 @@ const AuthLinks = () => {
       </div>
 
       {open && (
-        <div className={styles.responsiveMenu}>
-          <Link href="/">Homepage</Link>
-          <Link href="/">About</Link>
-          <Link href="/">Contact</Link>
+        
+        <div className={styles.responsiveMenu} >
+          <Link href="/" onClick={() => setOpen(!open)}>Homepage</Link>
+          <Link href="/" onClick={() => setOpen(!open)}>About</Link>
+          <Link href="/" onClick={() => setOpen(!open)}>Contact</Link>
           {status === "unauthenticated" ? (
             <Link href="/login" onClick={() => signIn("google")}>Login</Link>
           ) : (
             <>
-              <Link href="/write">Write</Link>
-              <Link href="/" onClick={signOut}>Logout</Link>
+              <Link href="/write" onClick={() => setOpen(!open)}>Write</Link>
+              <Link href="/" onClick={signOut }>Logout</Link>
             </>)}
         </div>
       )}

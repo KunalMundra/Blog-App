@@ -45,7 +45,10 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .imgContainer {
-    display: none;
+  .container{
+    display: block;
+  }
+  .imgContainer{
+    margin-bottom: 10px;
   }
 }

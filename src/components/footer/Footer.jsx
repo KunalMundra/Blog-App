@@ -12,10 +12,10 @@ const Footer = () => {
           <h1 className={styles.logoText}>𝚁𝚘𝚊𝚖 & 𝙲𝚘𝚍𝚎</h1>
         </div>
         <p className={styles.desc}>
-          Roam and Code unites exploration and coding, embracing
-          the endless possibilities in technology. We embark on a
-          journey through the evolving tech world, discovering the
-          tales told by every line of code.
+        A blog website for sharing travel adventures, culinary discoveries, 
+        fashion insights, cultural explorations, and coding expertise. Dive into captivating travel 
+        narratives, savor food tales, stay stylish, and delve into the world of tech with insightful 
+        coding blogs. It's your portal to diverse and enriching experiences.
         </p>
         <div className={styles.icons}>
           <Image src="/facebook.png" alt="" width={18} height={18} />
@@ -33,10 +33,10 @@ const Footer = () => {
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Tags</span>
-          <Link href="/">Style</Link>
-          <Link href="/">Fashion</Link>
-          <Link href="/">Coding</Link>
-          <Link href="/">Travel</Link>
+          <Link href={`/blog?cat=style`}>Style</Link>
+          <Link href={`/blog?cat=fashion`}>Fashion</Link>
+          <Link href={`/blog?cat=coding`}>Coding</Link>
+          <Link href={`/blog?cat=travel`}>Travel</Link>
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Social</span>

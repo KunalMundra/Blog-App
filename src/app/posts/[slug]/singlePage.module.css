@@ -97,8 +97,12 @@
 }
 
 @media screen and (max-width: 720px) {
+  .infoContainer{
+    display: block;
+  }
+
   .imageContainer {
-    display: none;
+    margin-top: 20px;
   }
 
   .title {
