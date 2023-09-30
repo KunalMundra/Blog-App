@@ -7,7 +7,7 @@ const MenuPosts = ({ withImage }) => {
     return (
         <div>
             <div className={styles.items}>
-                <Link href="http://localhost:3000/posts/tour-mehrangarh-fort" className={styles.item}>
+                <Link href= {`/posts/tour-mehrangarh-fort`} className={styles.item}>
                     {withImage && (<div className={styles.imgContainer}>
                         <Image src="/p1.jpeg" alt="" fill className={styles.image} />
                     </div>)}
@@ -20,7 +20,7 @@ const MenuPosts = ({ withImage }) => {
                         </div>
                     </div>
                 </Link>
-                <Link href="http://localhost:3000/posts/punjabi-cuisine" className={styles.item}>
+                <Link href={`/posts/punjabi-cuisine` }className={styles.item}>
                     {withImage && (<div className={styles.imgContainer}>
                         <Image src="/p1.jpeg" alt="" fill className={styles.image} />
                     </div>)}
@@ -33,7 +33,7 @@ const MenuPosts = ({ withImage }) => {
                         </div>
                     </div>
                 </Link>
-                <Link href="http://localhost:3000/posts/comfort-denim-the-best-stretch-jeans-brands-for-men" className={styles.item}>
+                <Link href={`posts/comfort-denim-the-best-stretch-jeans-brands-for-men` } className={styles.item}>
                     {withImage && (<div className={styles.imgContainer}>
                         <Image src="/p1.jpeg" alt="" fill className={styles.image} />
                     </div>)}
@@ -46,7 +46,7 @@ const MenuPosts = ({ withImage }) => {
                         </div>
                     </div>
                 </Link>
-                <Link href="http://localhost:3000/posts/art-and-culture-of-india" className={styles.item}>
+                <Link href= {`/posts/art-and-culture-of-india`} className={styles.item}>
                     {withImage && (<div className={styles.imgContainer}>
                         <Image src="/p1.jpeg" alt="" fill className={styles.image} />
                     </div>)}
